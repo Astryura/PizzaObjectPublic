@@ -31,7 +31,7 @@ public class PizzeriaAdminConsoleApp {
 					for(int i=0;i<Pizzas.length;i++){
 							System.out.println(Pizzas[i].code + " " + Pizzas[i].nom + " " + Pizzas[i].prix);
 					}
-					System.out.println(Pizza.nbPizzas+" pizzas créées depuis l’initialisation du programme");
+					System.out.println(Pizza.nbPizzas+" pizzas créées");
 					break;
 				case "2":
 					System.out.println("Créez votre Pizza");
